@@ -6,7 +6,7 @@ import Player from './Player'
 export default function MainPage() {
 
 
-    const [players, setPlayers] = useState([{ name: "player 1", isActive: true, color: "bg-blue-500", placedPlayer: 7, retirePlayer: 0 }, { name: "player 2", isActive: false, color: "bg-yellow-300", placedPlayer: 7, retirePlayer: 0 }])
+    const [players, setPlayers] = useState([{ name: "player 1", isActive: true, color: "bg-blue-500", placedPlayer: 0, retirePlayer: 0 }, { name: "player 2", isActive: false, color: "bg-yellow-300", placedPlayer: 0, retirePlayer: 0 }])
 
 
     return (
