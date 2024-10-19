@@ -6,7 +6,7 @@ export default function Player(props) {
     const { name, isActive, color, } = props.user1;
     const possition = props.possition;
     useEffect(() => {
-        console.log("____", Array.from({ length: props.user2.retirePlayer }, (_, index) => index), props.user2.retirePlayer, possition)
+        // console.log("____", Array.from({ length: props.user2.retirePlayer }, (_, index) => index), props.user2.retirePlayer, possition)
     }, [])
     return (
         <div className={`Player flex ${possition == "right" ? "flex-row-reverse" : "flex-row"} items-center justify-center`}>
